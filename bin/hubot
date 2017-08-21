@@ -4,6 +4,6 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-export DOCOMO_API_KEY=4f687a426541783178474c5132395166413965556833794b7267796c58764e6e6b41524e635357344b5041
+export DOCOMO_API_KEY=694833792f325a5463673878545275546a6d2e4b4632314d596376453954634a76305a5a2f423638563838
 
 exec node_modules/.bin/hubot --name "nekosan" "$@"
